@@ -1,0 +1,10 @@
+
+# These are the default values for fields
+# which will be placed in the certificate.
+# Don't leave any of these fields blank.
+export KEY_ORG="{{ cookiecutter.organizationName }}"
+## export KEY_DEPT=
+# warning: spaces don't work in .conf file name
+
+# If changing this, edit server/staff.conf
+## export KEY_SIZE=2048
